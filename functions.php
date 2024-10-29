@@ -41,7 +41,12 @@ function mfnch_enqueue_styles()
 	wp_enqueue_style('style', get_stylesheet_directory_uri() .'/style.css');
 }
 add_action('wp_enqueue_scripts', 'mfnch_enqueue_styles', 101);
-function betheme_child_scripts() {
-    wp_enqueue_script('betheme-child-bundle', get_stylesheet_directory_uri() . '/dist/bundle.js', array(), '1.0.0', true);
+// function betheme_child_scripts() {
+//     wp_enqueue_script('betheme-child-bundle', get_stylesheet_directory_uri() . '/dist/bundle.js', array(), '1.0.0', true);
+// }
+// add_action('wp_enqueue_scripts', 'betheme_child_scripts');
+
+function betheme_child_styles() {
+    wp_enqueue_style('betheme-child-styles', get_stylesheet_directory_uri() . '/main.css', array(), '1.0.0');
 }
-add_action('wp_enqueue_scripts', 'betheme_child_scripts');
+add_action('wp_enqueue_scripts', 'betheme_child_styles');
