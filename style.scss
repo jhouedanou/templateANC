@@ -1,0 +1,199 @@
+/*
+Theme Name: Betheme Child
+Theme URI: https://themes.muffingroup.com/betheme
+Author: Muffin group
+Author URI: https://muffingroup.com
+Description: Child Theme for Betheme
+Template: betheme
+Version: 2.0.2
+*/
+:root {
+  --vert-principal: #468242;
+  --orange        : #F48C27;
+  --vert-clair    : #CDD3AD;
+  --vert-olive    : #B1B791;
+
+  /* Palette de couleurs neutres */
+  --blanc-casse: #FAFAF6;
+  --beige-clair: #DFE3CC;
+  --vert-pastel: #C4D7C5;
+  --gris-beige : #CECCC5;
+
+  /* Variations de verts */
+  --vert-menthe: #DBEBDC;
+
+  /* Tons neutres */
+  --beige: #E6E4DC;
+}
+
+// Couleurs principales
+$primary    : #468242;
+$secondary  : #F48C27;
+$tertiary   : #CDD3AD;
+$quaternary : #B1B791;
+$fifth      : #99A175;
+// Palette neutre
+$neutral-100: #FAFAF6;
+$neutral-200: #DFE3CC;
+$neutral-300: #C4D7C5;
+$neutral-400: #CECCC5;
+
+// Variations
+$primary-light: #DBEBDC;
+$neutral-500  : #E6E4DC;
+
+// Exemple d'utilisation
+.element {
+  background-color: $primary;
+  border-color    : $secondary;
+}
+
+.header-open #Header_creative {
+  background: white !important;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+
+  * {
+    color: $primary !important;
+  }
+
+  .menu-main {
+    .menu-item {
+      a {
+        font: 15px;
+      }
+    }
+  }
+}
+
+.wrap.mcb-wrap.mcb-wrap-q3iv0wl42.one.tablet-one.laptop-one.mobile-one.column-margin-10px.valign-top.move-up.animate.clearfix.fadeInUp {
+  padding: 0em !important;
+}
+
+.mcb-section-inner-jjt02e4dn {
+  .wrap {
+    .mcb-section-inner-jjt02e4dn {
+      .wrap {
+        padding: 1em !important;
+      }
+    }
+  }
+}
+
+.mcb-item-1x5gbipam {
+  border-top: 10px solid $tertiary !important;
+  background: white !important;
+
+  h3 {
+    color: $tertiary !important;
+  }
+}
+
+.mcb-item-y5o8sbhz6 {
+  border-top: 10px solid $quaternary !important;
+  background: white !important;
+
+  h3 {
+    color: $quaternary !important;
+  }
+}
+
+.mcb-item-k5yhv92w3 {
+  border-top: 10px solid #C4D7C5 !important;
+  background: white !important;
+
+  h3 {
+    color: $fifth !important;
+  }
+}
+
+.mcb-item-3l9t9c6pk {
+  border-top: 10px solid $primary !important;
+  background: white !important;
+
+  h3 {
+    color: $primary !important;
+  }
+
+}
+
+#lintro {
+  .mcb-wrap-background-overlay {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .column_column {
+
+    .mcb-column-inner {
+      position: relative;
+
+      &::after {
+        content         : "";
+        position        : absolute;
+        bottom          : 0;
+        left            : 0;
+        width           : 1px;
+        height          : 100%;
+        background-color: #e0e0e0;
+      }
+
+      &:not(:last-child) {}
+    }
+
+    &:nth-of-type(1) {
+      display: none;
+
+      .mcb-column-inner {
+        background-color: $primary !important;
+      }
+    }
+
+    .mcb-column-inner {
+      display        : flex;
+      align-items    : center;
+      justify-content: center;
+      flex-direction : column;
+      margin         : 5px;
+      min-height     : 178px !important;
+      border-radius  : 8px;
+      padding        : 1.5em;
+      transition     : box-shadow 0.3s ease;
+      position       : relative;
+
+      h4 {
+        color: black !important;
+      }
+
+      h3 {}
+    }
+
+
+
+    // &:nth-of-type(2) {
+    //   .mcb-column-inner {
+
+    //     background-color: $tertiary !important;
+    //   }
+    // }
+
+    // .column {
+    //   &:nth-of-type(3) {
+    //     .mcb-column-inner {
+
+    //       background-color: $quaternary !important;
+
+    //     }
+
+    //   }
+
+    //   .column {
+    //     &:nth-of-type(4) {}
+    //   }
+
+
+
+  }
+}
+
+.leclos {
+  background-size: cover !important;
+}

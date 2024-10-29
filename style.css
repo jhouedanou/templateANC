@@ -1,0 +1,120 @@
+/*
+Theme Name: Betheme Child
+Theme URI: https://themes.muffingroup.com/betheme
+Author: Muffin group
+Author URI: https://muffingroup.com
+Description: Child Theme for Betheme
+Template: betheme
+Version: 2.0.2
+*/
+:root {
+  --vert-principal: #468242;
+  --orange: #F48C27;
+  --vert-clair: #CDD3AD;
+  --vert-olive: #B1B791;
+  /* Palette de couleurs neutres */
+  --blanc-casse: #FAFAF6;
+  --beige-clair: #DFE3CC;
+  --vert-pastel: #C4D7C5;
+  --gris-beige: #CECCC5;
+  /* Variations de verts */
+  --vert-menthe: #DBEBDC;
+  /* Tons neutres */
+  --beige: #E6E4DC;
+}
+
+.element {
+  background-color: #468242;
+  border-color: #F48C27;
+}
+
+.header-open #Header_creative {
+  background: white !important;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+.header-open #Header_creative * {
+  color: #468242 !important;
+}
+.header-open #Header_creative .menu-main .menu-item a {
+  font: 15px;
+}
+
+.wrap.mcb-wrap.mcb-wrap-q3iv0wl42.one.tablet-one.laptop-one.mobile-one.column-margin-10px.valign-top.move-up.animate.clearfix.fadeInUp {
+  padding: 0em !important;
+}
+
+.mcb-section-inner-jjt02e4dn .wrap .mcb-section-inner-jjt02e4dn .wrap {
+  padding: 1em !important;
+}
+
+.mcb-item-1x5gbipam {
+  border-top: 10px solid #CDD3AD !important;
+  background: white !important;
+}
+.mcb-item-1x5gbipam h3 {
+  color: #CDD3AD !important;
+}
+
+.mcb-item-y5o8sbhz6 {
+  border-top: 10px solid #B1B791 !important;
+  background: white !important;
+}
+.mcb-item-y5o8sbhz6 h3 {
+  color: #B1B791 !important;
+}
+
+.mcb-item-k5yhv92w3 {
+  border-top: 10px solid #C4D7C5 !important;
+  background: white !important;
+}
+.mcb-item-k5yhv92w3 h3 {
+  color: #99A175 !important;
+}
+
+.mcb-item-3l9t9c6pk {
+  border-top: 10px solid #468242 !important;
+  background: white !important;
+}
+.mcb-item-3l9t9c6pk h3 {
+  color: #468242 !important;
+}
+
+#lintro .mcb-wrap-background-overlay {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#lintro .column_column .mcb-column-inner {
+  position: relative;
+}
+#lintro .column_column .mcb-column-inner::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #e0e0e0;
+}
+#lintro .column_column:nth-of-type(1) {
+  display: none;
+}
+#lintro .column_column:nth-of-type(1) .mcb-column-inner {
+  background-color: #468242 !important;
+}
+#lintro .column_column .mcb-column-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px;
+  min-height: 178px !important;
+  border-radius: 8px;
+  padding: 1.5em;
+  transition: box-shadow 0.3s ease;
+  position: relative;
+}
+#lintro .column_column .mcb-column-inner h4 {
+  color: black !important;
+}
+.leclos {
+  background-size: cover !important;
+}/*# sourceMappingURL=style.css.map */
